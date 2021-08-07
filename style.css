@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+/* heder style */
+
+
+.header-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr) ;
+    background: #2D25A0;
+    height: 550px;
+    
+}
+.header-info{
+    width: 70%;
+    padding-left: 120px;
+    padding-top:80px;
+}
+.header-info h1{
+    color:white;
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 27px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.button{
+    background-color: #E02C6D;
+    font-size:16px ;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 6px 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.arrow{
+    margin-left: 5px;
+    
+}
+.header-img{
+    width: 50%;
+    padding: 80px 120px 86px 40px;
+
+}
+.header-img img{
+    width: 556px;
+    height: 438px;
+}
+
+
+/* player style */
+.players-section{
+    display:flex ;
+    justify-content: center;
+    margin-top: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:30px ;
+    grid-row-gap:30px;
+    
+}
+.player{
+    width: 330px;
+    padding: 15px;
+    background: #fff;
+    box-shadow:0px 0px 40px rgb(0 0 0 /15%);
+    
+}
+.player img{
+    width: 330px;
+    height: 256px;   
+}
+
+/* footer styel */
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.logo-area{
+      text-align: center;
+      
+
+}
+.logo-area img {
+    width:100%;
+    width: 483px;
+    height: 110px;
+    
+}
+.fa-instagram.icon,.icon{
+    background-color: gainsboro;
+    padding:6px;
+    border-radius: 50%;
+}
+
